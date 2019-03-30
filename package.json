@@ -1,0 +1,13 @@
+{
+  "name": "func-to-worker",
+  "version": "1.0.0",
+  "description": "This package can get function and  wrap it in web worker ",
+  "main": "build/index.js",
+  "author": "Genrikh Fetischev",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.0",
+    "babel": "^6.23.0",
+    "webpack": "^4.29.6"
+  }
+}
