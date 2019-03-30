@@ -1,13 +1,31 @@
 {
-  "name": "func-to-worker",
-  "version": "1.0.0",
+  "name": "function-to-worker",
+  "version": "0.0.6",
   "description": "This package can get function and  wrap it in web worker ",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "author": "Genrikh Fetischev",
   "license": "MIT",
-  "dependencies": {
+  "keywords": [
+    "worker",
+    "promise",
+    "webworker",
+    "web worker"
+  ],
+  "scripts": {
+    "build": "webpack",
+    "prepublish": "npm-auto-version && yarn build",
+    "postpublish": "git commit -a -m 'updated version'"
+  },
+  "devDependencies": {
     "@babel/core": "^7.4.0",
     "babel": "^6.23.0",
-    "webpack": "^4.29.6"
+    "npm-auto-version": "^1.0.0",
+    "prettier": "^1.16.4",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.4.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
