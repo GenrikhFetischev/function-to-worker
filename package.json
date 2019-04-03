@@ -1,6 +1,6 @@
 {
   "name": "function-to-worker",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "This package can get function and  wrap it in web worker ",
   "main": "build/index.js",
   "types": "build/index.d.ts",
