@@ -18,8 +18,6 @@
     "postpublish": "git commit -a -m 'updated version' && git push"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "babel": "^6.23.0",
     "npm-auto-version": "^1.0.0",
     "prettier": "^1.16.4",
     "ts-loader": "^5.3.3",
