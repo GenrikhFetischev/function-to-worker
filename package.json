@@ -6,6 +6,8 @@
   "types": "build/index.d.ts",
   "author": "Genrikh Fetischev",
   "license": "MIT",
+  "homepage": "https://github.com/GenrikhFetischev/function-to-worker",
+  "repository": "https://github.com/GenrikhFetischev/function-to-worker",
   "keywords": [
     "worker",
     "promise",
