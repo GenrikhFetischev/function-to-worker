@@ -15,7 +15,7 @@
     "web worker"
   ],
   "scripts": {
-    "build": "webpack",
+    "build": "webpack  --mode=production",
     "prepublish": "npm-auto-version && yarn build",
     "postpublish": "git commit -a -m 'updated version' && git push"
   },
